@@ -7,7 +7,7 @@ A zsh plugin to use Esc+P to prepend proxychains (-q) to a command.
 Assuming you have oh-my-zsh, you can simply write
 
 ```bash
-git clone git@github.com:six-ddc/proxychains-ng.zsh.git ~/.oh-my-zsh/custom/plugins/zsh-proxychains-ng
+git clone git@github.com:six-ddc/zsh-proxychains-ng.git ~/.oh-my-zsh/custom/plugins/zsh-proxychains-ng
 echo "plugins+=(zsh-proxychains-ng)" >> ~/.zshrc
 ```
 
