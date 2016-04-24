@@ -1,6 +1,6 @@
 # zsh-proxychains-ng
 
-A zsh plugin to use Esc+P will be inserted before the command.
+A zsh plugin to use Esc+P to prepend proxychains (-q) to a command.
 
 ## Installation
 
