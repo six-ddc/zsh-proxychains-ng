@@ -1,5 +1,7 @@
 # zsh-proxychains-ng
 
+A zsh plugin to use Esc+P will be inserted before the command.
+
 ## Installation
 
 Assuming you have oh-my-zsh, you can simply write
