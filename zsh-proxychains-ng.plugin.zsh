@@ -35,5 +35,8 @@ proxychains4-command-line() {
 zle -N proxychains4-command-line
 zle -N proxychains4-q-command-line
 # Defined shortcut keys: [Esc] [p]
-bindkey "\ep" proxychains4-q-command-line
-bindkey "\e\ep" proxychains4-command-line
+bindkey -M emacs "\ep" proxychains4-q-command-line
+bindkey -M emacs "\e\ep" proxychains4-command-line
+
+bindkey -M vicmd "\ep" proxychains4-q-command-line
+bindkey -M vicmd "\e\ep" proxychains4-command-line
